@@ -3,8 +3,7 @@
 
 int main()
 {
-      printf("%d\n", josephus_rec(8, 3));
-
+   printf("%d\n", josephus_rec(41, 2));
    return 0;
 }
 
