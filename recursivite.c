@@ -9,6 +9,5 @@ int josephus_rec(int n, int m)
       return 1;
    else
       return ((josephus_rec(n-1, m)+m-1) % n)+1;
-
 }
 
