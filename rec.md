@@ -49,7 +49,7 @@ Pour n=8 et m=3 :
 Complexité
 ----------
 O(n)
-* Preuve  
+* Preuve 
     Soit T(1) = a, T(n) = b + T(n-1)
     T(n) = b + T(n-1)
          = b + b + T(n-2)
