@@ -50,13 +50,14 @@ Complexité
 ----------
 O(n)
 * Preuve 
-    Soit T(1) = a, T(n) = b + T(n-1)
-    T(n) = b + T(n-1)
-         = b + b + T(n-2)
-         = ...
-         = i*b + T(n-i)
-         = ...
-         = (n-1)*b + T(n-n+1)
-         = n*b - b + T(1)
-         = n*b - b + a
+
+   Soit T(1) = a, T(n) = b + T(n-1)
+   _T(n)_ = b + T(n-1)  
+         = b + b + T(n-2)  
+         = ...  
+         = i*b + T(n-i)  
+         = ...  
+         = (n-1)*b + T(n-n+1)  
+         = n*b - b + T(1)  
+         = _n*b - b + a_  
 
