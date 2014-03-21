@@ -2,7 +2,7 @@
 #define JOSEPHUS_LIST_H
 
 typedef struct jCircle JCircle;
-typedef struct node Soldier;
+typedef struct soldier Soldier;
 
 JCircle* pJCircle(int soldierNumber);
 

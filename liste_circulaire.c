@@ -11,7 +11,7 @@ struct jCircle
     Soldier* pCurrentS;
 };
 
-typedef struct node Soldier;
+typedef struct soldier Soldier;
 
 JCircle* pJCircle(int soldierNumber)
 {
